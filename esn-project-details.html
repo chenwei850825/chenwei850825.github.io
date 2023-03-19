@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - iproject Bootstrap Template</title>
+  <title>project Details - iproject Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -47,26 +47,27 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+        <img src="assets/img/avatar.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Matt Yang</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/chenwei850825" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/chenwei850825/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/chen-wei-yang/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#project" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>project</span></a>
+          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#experience" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
+              <span>Experience</span></a></li>
+          <li><a href="index.html#education" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Education</span></a>
           </li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="index.html#project" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Project</span></a></li>
+          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -75,27 +76,78 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2>ESN Project Details</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li>ESN Project Details</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
+    <!-- ======= project Details Section ======= -->
+    <section id="project-details" class="project-details">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="project-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <!-- <div class="swiper-slide">
+                  <img src="assets/img/project/esn-details-1.jpg" alt="">
+                </div> -->
+
+                <div class="swiper-slide">
+                  <img src="assets/img/project/esn-details-2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/project/esn-details-3.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="project-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Application design</li>
+                <li><strong>Client</strong>: Users from social media for pandemic and disaster management</li>
+                <!-- <li><strong>Project date</strong>: 01 March, 2020</li> -->
+                <!-- <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li> -->
+              </ul>
+            </div>
+            <div class="project-description">
+              <h2>Project Detail</h2>
+              <p>
+                Emergency Social Network (ESN) is running in the Cloud, to be used by communities of civilians during emergency situations due to natural disasters.
+                <br>
+                <br>
+                It provides features to help people to communicate with each other, to share information, to coordinate, and the information is always updated in real-time.
+                <br>
+                <br>
+                Furthermore, users are assigned with different roles for access control.
+                <br>
+                <br>
+                We leverage several software engineering techniques such as object oriented analysis, UML diagram, scrum and pair programming to design and implement the system.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
-    </section>
+    </section><!-- End project Details Section -->
 
   </main><!-- End #main -->
 
